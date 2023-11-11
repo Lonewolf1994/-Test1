@@ -19,7 +19,7 @@ local Username = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.Coregui
+ScreenGui.Parent = game.Workspace
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
@@ -65,9 +65,6 @@ Home.Text = "Home"
 Home.TextColor3 = Color3.fromRGB(200, 0, 0)
 Home.TextSize = 14.000
 Home.TextStrokeColor3 = Color3.fromRGB(252, 237, 212)
-Home.MouseButton1Click:Connect(function()
-	Home.Visible = true
-end)
 
 UIGridLayout.Parent = MainBtn
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -115,20 +112,20 @@ Min.TextSize = 14.000
 Min.TextWrapped = true
 
 Home_2.Name = "Home"
-Home_2.Parent = ScreenGui
+Home_2.Parent = Main
 Home_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Home_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Home_2.BorderSizePixel = 0
-Home_2.Position = UDim2.new(0.330000013, 0, 0.265306115, 0)
-Home_2.Size = UDim2.new(0.447447717, 0, 0.546938837, 0)
+Home_2.Position = UDim2.new(0.239999965, 0, 0.12400011, 0)
+Home_2.Size = UDim2.new(0.76000011, 0, 0.875816941, 0)
 
 Welcome_2.Name = "Welcome"
 Welcome_2.Parent = Home_2
 Welcome_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Welcome_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Welcome_2.BorderSizePixel = 2
-Welcome_2.Position = UDim2.new(0, 0, 2.89843278e-08, 0)
-Welcome_2.Size = UDim2.new(0.997947454, 0, 0.115671642, 0)
+Welcome_2.Position = UDim2.new(0, 0, 5.80011132e-08, 0)
+Welcome_2.Size = UDim2.new(1.0007987, 0, 0.115671635, 0)
 Welcome_2.Font = Enum.Font.SourceSans
 Welcome_2.Text = "Welcome"
 Welcome_2.TextColor3 = Color3.fromRGB(200, 0, 0)
@@ -151,8 +148,8 @@ Username.Parent = Home_2
 Username.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Username.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Username.BorderSizePixel = 2
-Username.Position = UDim2.new(0, 0, 0.209000021, 0)
-Username.Size = UDim2.new(0.997947454, 0, 0.115671642, 0)
+Username.Position = UDim2.new(0, 0, 0.209000051, 0)
+Username.Size = UDim2.new(0.999195218, 0, 0.115671635, 0)
 Username.Font = Enum.Font.SourceSans
 Username.Text = "User"
 Username.TextColor3 = Color3.fromRGB(200, 0, 0)
