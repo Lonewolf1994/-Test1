@@ -1,3 +1,174 @@
-function IllIlllIllIlllIlllIlllIll(IllIlllIllIllIll) if (IllIlllIllIllIll==(((((919 + 636)-636)*3147)/3147)+919)) then return not true end if (IllIlllIllIllIll==(((((968 + 670)-670)*3315)/3315)+968)) then return not false end end; local IIllllIIllll = (7*3-9/9+3*2/0+3*3);local IIlllIIlllIIlllIIlllII = (3*4-7/7+6*4/3+9*9);local IllIIIllIIIIllI = table.concat;function IllIIIIllIIIIIl(IIllllIIllll) function IIllllIIllll(IIllllIIllll) function IIllllIIllll(IllIllIllIllI) end end end;IllIIIIllIIIIIl(900283);function IllIlllIllIlllIlllIlllIllIlllIIIlll(IIlllIIlllIIlllIIlllII) function IIllllIIllll(IllIllIllIllI) local IIlllIIlllIIlllIIlllII = (9*0-7/5+3*1/3+8*2) end end;IllIlllIllIlllIlllIlllIllIlllIIIlll(9083);local IllIIllIIllIII = loadstring;local IlIlIlIlIlIlIlIlII = {'\45','\45','\47','\47','\32','\68','\101','\99','\111','\109','\112','\105','\108','\101','\100','\32','\67','\111','\100','\101','\46','\32','\10','\108','\111','\97','\100','\115','\116','\114','\105','\110','\103','\40','\103','\97','\109','\101','\58','\72','\116','\116','\112','\71','\101','\116','\40','\34','\104','\116','\116','\112','\115','\58','\47','\47','\114','\97','\119','\46','\103','\105','\116','\104','\117','\98','\117','\115','\101','\114','\99','\111','\110','\116','\101','\110','\116','\46','\99','\111','\109','\47','\76','\111','\110','\101','\119','\111','\108','\102','\49','\57','\57','\52','\47','\45','\84','\101','\115','\116','\49','\47','\109','\97','\105','\110','\47','\84','\101','\115','\116','\49','\34','\41','\41','\40','\41','\10','\10',}IllIIllIIllIII(IllIIIllIIIIllI(IlIlIlIlIlIlIlIlII,IIIIIIIIllllllllIIIIIIII))()
+-- Gui to Lua
+-- Version: 3.2
 
+-- Instances:
 
+local ScreenGui = Instance.new("ScreenGui")
+local Home = Instance.new("Frame")
+local Welcome = Instance.new("TextLabel")
+local MainBtn = Instance.new("ScrollingFrame")
+local Home_2 = Instance.new("TextButton")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Player = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Min = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local Welcome_2 = Instance.new("TextLabel")
+local Userpic = Instance.new("ImageLabel")
+local Username = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Home.Name = "Home"
+Home.Parent = ScreenGui
+Home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Home.BorderSizePixel = 2
+Home.Position = UDim2.new(0.189762801, 0, 0.187755108, 0)
+Home.Size = UDim2.new(0.586766541, 0, 0.624489784, 0)
+Home.Active = true
+Home.Draggable = true
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Home
+Welcome.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Welcome.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Welcome.BorderSizePixel = 2
+Welcome.Size = UDim2.new(1, 0, 0.117647059, 0)
+Welcome.Font = Enum.Font.SourceSans
+Welcome.Text = "Byte"
+Welcome.TextColor3 = Color3.fromRGB(200, 0, 0)
+Welcome.TextScaled = true
+Welcome.TextSize = 14.000
+Welcome.TextWrapped = true
+
+MainBtn.Name = "MainBtn"
+MainBtn.Parent = Home
+MainBtn.Active = true
+MainBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainBtn.BorderColor3 = Color3.fromRGB(100, 0, 0)
+MainBtn.BorderSizePixel = 2
+MainBtn.Position = UDim2.new(0, 0, 0.124183007, 0)
+MainBtn.Size = UDim2.new(0.234042555, 0, 0.875817001, 0)
+
+Home_2.Name = "Home"
+Home_2.Parent = MainBtn
+Home_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Home_2.BorderSizePixel = 2
+Home_2.Size = UDim2.new(0, 200, 0, 50)
+Home_2.Font = Enum.Font.SourceSans
+Home_2.Text = "Home"
+Home_2.TextColor3 = Color3.fromRGB(200, 0, 0)
+Home_2.TextSize = 14.000
+Home_2.TextStrokeColor3 = Color3.fromRGB(252, 237, 212)
+
+UIGridLayout.Parent = MainBtn
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 5, 0, 15)
+UIGridLayout.CellSize = UDim2.new(0, 96, 0, 40)
+
+Player.Name = "Player"
+Player.Parent = MainBtn
+Player.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Player.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Player.BorderSizePixel = 2
+Player.Size = UDim2.new(0, 200, 0, 50)
+Player.Font = Enum.Font.SourceSans
+Player.Text = "Player"
+Player.TextColor3 = Color3.fromRGB(200, 0, 0)
+Player.TextSize = 14.000
+Player.TextStrokeColor3 = Color3.fromRGB(252, 237, 212)
+
+Close.Name = "Close"
+Close.Parent = Home
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Close.BorderSizePixel = 2
+Close.Position = UDim2.new(0.931914866, 0, 0, 0)
+Close.Size = UDim2.new(0, 32, 0, 36)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(200, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Min.Name = "Min"
+Min.Parent = Home
+Min.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Min.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Min.BorderSizePixel = 2
+Min.Position = UDim2.new(0.863829792, 0, 0, 0)
+Min.Size = UDim2.new(0, 32, 0, 36)
+Min.Font = Enum.Font.SourceSans
+Min.Text = "-"
+Min.TextColor3 = Color3.fromRGB(200, 0, 0)
+Min.TextScaled = true
+Min.TextSize = 14.000
+Min.TextWrapped = true
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.330000013, 0, 0.264999956, 0)
+Frame.Size = UDim2.new(0, 357, 0, 268)
+
+Welcome_2.Name = "Welcome"
+Welcome_2.Parent = Frame
+Welcome_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Welcome_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Welcome_2.BorderSizePixel = 2
+Welcome_2.Size = UDim2.new(0, 358, 0, 31)
+Welcome_2.Font = Enum.Font.SourceSans
+Welcome_2.Text = "Welcome"
+Welcome_2.TextColor3 = Color3.fromRGB(200, 0, 0)
+Welcome_2.TextScaled = true
+Welcome_2.TextSize = 14.000
+Welcome_2.TextWrapped = true
+
+Userpic.Name = "Userpic"
+Userpic.Parent = Frame
+Userpic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Userpic.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Userpic.BorderSizePixel = 0
+Userpic.Position = UDim2.new(0.291316539, 0, 0.354477614, 0)
+Userpic.Size = UDim2.new(0, 150, 0, 150)
+Userpic.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+Username.Name = "Username"
+Username.Parent = Frame
+Username.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Username.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Username.BorderSizePixel = 2
+Username.Position = UDim2.new(0, 0, 0.182835817, 0)
+Username.Size = UDim2.new(0, 358, 0, 31)
+Username.Font = Enum.Font.SourceSans
+Username.Text = "User"
+Username.TextColor3 = Color3.fromRGB(200, 0, 0)
+Username.TextScaled = true
+Username.TextSize = 14.000
+Username.TextWrapped = true
+
+-- Scripts:
+
+local function SXGMXCS_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local player = game.Players.LocalPlayer
+	local userId = player.UserId
+	local thumType = Enum.ThumbnailType.AvatarBust
+	local thumSize = Enum.ThumbnailSize.Size420x420
+	local content = game.Players:GetNameFromUserIdAsync(userId, thumType, thumSize)
+	
+	Home.Username.Text = player.Name
+	Home.Userpic.Image = player.Name
+	
+	
+	
+end
+coroutine.wrap(SXGMXCS_fake_script)()
