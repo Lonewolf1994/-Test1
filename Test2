@@ -24,7 +24,7 @@ local content = game.Players:GetNameFromUserIdAsync(userId, thumtype, thumsize)
 
 --Properties:
 
-ScreenGui.Parent = game.Workspace
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
