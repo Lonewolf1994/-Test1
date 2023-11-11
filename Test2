@@ -19,7 +19,7 @@ local Username = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGuI
+ScreenGui.Parent = game.Coregui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
@@ -59,12 +59,15 @@ Home.Parent = MainBtn
 Home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Home.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Home.BorderSizePixel = 2
-Home.Size = UDim2.new(0, 200, 0, 50)
+Home.Size = UDim2.new(1.85997903, 0, 0.190058023, 0)
 Home.Font = Enum.Font.SourceSans
 Home.Text = "Home"
 Home.TextColor3 = Color3.fromRGB(200, 0, 0)
 Home.TextSize = 14.000
 Home.TextStrokeColor3 = Color3.fromRGB(252, 237, 212)
+Home.MouseButton1Click:Connect(function()
+	Home.Visible = true
+end)
 
 UIGridLayout.Parent = MainBtn
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -76,7 +79,7 @@ Player.Parent = MainBtn
 Player.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Player.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Player.BorderSizePixel = 2
-Player.Size = UDim2.new(0, 200, 0, 50)
+Player.Size = UDim2.new(1.85997903, 0, 0.190058023, 0)
 Player.Font = Enum.Font.SourceSans
 Player.Text = "Player"
 Player.TextColor3 = Color3.fromRGB(200, 0, 0)
@@ -88,8 +91,8 @@ Close.Parent = Main
 Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Close.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Close.BorderSizePixel = 2
-Close.Position = UDim2.new(0.931914866, 0, 0, 0)
-Close.Size = UDim2.new(0, 32, 0, 36)
+Close.Position = UDim2.new(0.929738283, 0, 0, 0)
+Close.Size = UDim2.new(0.0696502849, 0, 0.119848363, 0)
 Close.Font = Enum.Font.SourceSans
 Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(200, 0, 0)
@@ -102,8 +105,8 @@ Min.Parent = Main
 Min.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Min.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Min.BorderSizePixel = 2
-Min.Position = UDim2.new(0.863829792, 0, 0, 0)
-Min.Size = UDim2.new(0, 32, 0, 36)
+Min.Position = UDim2.new(0.861653209, 0, 0, 0)
+Min.Size = UDim2.new(0.0696502849, 0, 0.119848363, 0)
 Min.Font = Enum.Font.SourceSans
 Min.Text = "-"
 Min.TextColor3 = Color3.fromRGB(200, 0, 0)
@@ -116,15 +119,16 @@ Home_2.Parent = ScreenGui
 Home_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Home_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Home_2.BorderSizePixel = 0
-Home_2.Position = UDim2.new(0.330000013, 0, 0.264999956, 0)
-Home_2.Size = UDim2.new(0, 357, 0, 268)
+Home_2.Position = UDim2.new(0.330000013, 0, 0.265306115, 0)
+Home_2.Size = UDim2.new(0.447447717, 0, 0.546938837, 0)
 
 Welcome_2.Name = "Welcome"
 Welcome_2.Parent = Home_2
 Welcome_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Welcome_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Welcome_2.BorderSizePixel = 2
-Welcome_2.Size = UDim2.new(0, 358, 0, 31)
+Welcome_2.Position = UDim2.new(0, 0, 2.89843278e-08, 0)
+Welcome_2.Size = UDim2.new(0.997947454, 0, 0.115671642, 0)
 Welcome_2.Font = Enum.Font.SourceSans
 Welcome_2.Text = "Welcome"
 Welcome_2.TextColor3 = Color3.fromRGB(200, 0, 0)
@@ -134,38 +138,24 @@ Welcome_2.TextWrapped = true
 
 Userpic.Name = "Userpic"
 Userpic.Parent = Home_2
-Userpic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Userpic.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Userpic.BorderSizePixel = 0
-Userpic.Position = UDim2.new(0.291316539, 0, 0.354477614, 0)
-Userpic.Size = UDim2.new(0, 150, 0, 150)
+Userpic.BackgroundColor3 = Color3.fromRGB(250, 250, 250)
+Userpic.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Userpic.BorderSizePixel = 2
+Userpic.Position = UDim2.new(0.288462251, 0, 0.415262133, 0)
+Userpic.Size = UDim2.new(0.420168072, 0, 0.559701502, 0)
 Userpic.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Userpic.ImageColor3 = Color3.fromRGB(80, 80, 80)
 
 Username.Name = "Username"
 Username.Parent = Home_2
 Username.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Username.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Username.BorderSizePixel = 2
-Username.Position = UDim2.new(0, 0, 0.182835817, 0)
-Username.Size = UDim2.new(0, 358, 0, 31)
+Username.Position = UDim2.new(0, 0, 0.209000021, 0)
+Username.Size = UDim2.new(0.997947454, 0, 0.115671642, 0)
 Username.Font = Enum.Font.SourceSans
 Username.Text = "User"
 Username.TextColor3 = Color3.fromRGB(200, 0, 0)
 Username.TextScaled = true
 Username.TextSize = 14.000
 Username.TextWrapped = true
-
--- Scripts:
-
-local function KZGWN_fake_script() -- Home_2.LocalScript 
-	local script = Instance.new('LocalScript', Home_2)
-
-	local player = game.Players.LocalPlayer
-	local userId = player.UserId
-	local thumType = Enum.ThumbnailType.AvatarBust
-	local thumSize = Enum.ThumbnailSize.Size420x420
-	local content = game.Players:GetNameFromUserIdAsync(userId, thumType, thumSize)
-	
-	
-end
-coroutine.wrap(KZGWN_fake_script)()
