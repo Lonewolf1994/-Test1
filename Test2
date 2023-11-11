@@ -1,7 +1,8 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
+for i,v in pairs(game.Players.LocalPlayer.PlayerGui:GetChildren()) do
+	if v.Name == "ScreenGui" then
+		v:Destroy()    
+	end
+end
 
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
