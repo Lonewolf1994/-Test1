@@ -14,6 +14,11 @@ local Userpic = Instance.new("ImageLabel")
 local Username = Instance.new("TextLabel")
 local Open = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
+local player = game.Players.LocalPlayer
+local userId = player.UserId
+local thumType = Enum.ThumbnailType.AvatarBust
+local thumSize = Enum.ThumbnailSize.Size420x420
+local content = game.Players:GetUserThumbnailAsync()(userId, thumType, thumSize)
 
 --Properties:
 
@@ -149,6 +154,7 @@ Userpic.Position = UDim2.new(0.288462251, 0, 0.415262133, 0)
 Userpic.Size = UDim2.new(0.420168072, 0, 0.559701502, 0)
 Userpic.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 Userpic.ImageColor3 = Color3.fromRGB(80, 80, 80)
+Userpic.Image = content
 
 Username.Name = "Username"
 Username.Parent = Home_2
@@ -163,6 +169,7 @@ Username.TextColor3 = Color3.fromRGB(200, 0, 0)
 Username.TextScaled = true
 Username.TextSize = 14.000
 Username.TextWrapped = true
+Username.Text = player.Name
 
 Open.Name = "Open"
 Open.Parent = ScreenGui
