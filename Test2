@@ -16,6 +16,8 @@ local Home_2 = Instance.new("Frame")
 local Welcome_2 = Instance.new("TextLabel")
 local Userpic = Instance.new("ImageLabel")
 local Username = Instance.new("TextLabel")
+local Open = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
@@ -143,7 +145,6 @@ Userpic.Size = UDim2.new(0.420168072, 0, 0.559701502, 0)
 Userpic.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 Userpic.ImageColor3 = Color3.fromRGB(80, 80, 80)
 
-
 Username.Name = "Username"
 Username.Parent = Home_2
 Username.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -157,3 +158,24 @@ Username.TextColor3 = Color3.fromRGB(200, 0, 0)
 Username.TextScaled = true
 Username.TextSize = 14.000
 Username.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = Main
+Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(-0.0609439611, 0, -0.27631706, 0)
+Open.Size = UDim2.new(0, 76, 0, 25)
+
+TextLabel.Parent = Open
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 76, 0, 25)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Open"
+TextLabel.TextColor3 = Color3.fromRGB(200, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
