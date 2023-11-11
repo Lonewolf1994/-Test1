@@ -4,36 +4,36 @@
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
-local Home = Instance.new("Frame")
+local Main = Instance.new("Frame")
 local Welcome = Instance.new("TextLabel")
 local MainBtn = Instance.new("ScrollingFrame")
-local Home_2 = Instance.new("TextButton")
+local Home = Instance.new("TextButton")
 local UIGridLayout = Instance.new("UIGridLayout")
 local Player = Instance.new("TextButton")
 local Close = Instance.new("TextButton")
 local Min = Instance.new("TextButton")
-local Frame = Instance.new("Frame")
+local Home_2 = Instance.new("Frame")
 local Welcome_2 = Instance.new("TextLabel")
 local Userpic = Instance.new("ImageLabel")
 local Username = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
+ScreenGui.Parent = game.CoreGuI
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Home.Name = "Home"
-Home.Parent = ScreenGui
-Home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Home.BorderColor3 = Color3.fromRGB(100, 0, 0)
-Home.BorderSizePixel = 2
-Home.Position = UDim2.new(0.189762801, 0, 0.187755108, 0)
-Home.Size = UDim2.new(0.586766541, 0, 0.624489784, 0)
-Home.Active = true
-Home.Draggable = true
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Main.BorderSizePixel = 2
+Main.Position = UDim2.new(0.189762801, 0, 0.187755108, 0)
+Main.Size = UDim2.new(0.586766541, 0, 0.624489784, 0)
+Main.Active = true
+Main.Draggable = true
 
 Welcome.Name = "Welcome"
-Welcome.Parent = Home
+Welcome.Parent = Main
 Welcome.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Welcome.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Welcome.BorderSizePixel = 2
@@ -46,7 +46,7 @@ Welcome.TextSize = 14.000
 Welcome.TextWrapped = true
 
 MainBtn.Name = "MainBtn"
-MainBtn.Parent = Home
+MainBtn.Parent = Main
 MainBtn.Active = true
 MainBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 MainBtn.BorderColor3 = Color3.fromRGB(100, 0, 0)
@@ -54,17 +54,17 @@ MainBtn.BorderSizePixel = 2
 MainBtn.Position = UDim2.new(0, 0, 0.124183007, 0)
 MainBtn.Size = UDim2.new(0.234042555, 0, 0.875817001, 0)
 
-Home_2.Name = "Home"
-Home_2.Parent = MainBtn
-Home_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Home_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
-Home_2.BorderSizePixel = 2
-Home_2.Size = UDim2.new(0, 200, 0, 50)
-Home_2.Font = Enum.Font.SourceSans
-Home_2.Text = "Home"
-Home_2.TextColor3 = Color3.fromRGB(200, 0, 0)
-Home_2.TextSize = 14.000
-Home_2.TextStrokeColor3 = Color3.fromRGB(252, 237, 212)
+Home.Name = "Home"
+Home.Parent = MainBtn
+Home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Home.BorderSizePixel = 2
+Home.Size = UDim2.new(0, 200, 0, 50)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(200, 0, 0)
+Home.TextSize = 14.000
+Home.TextStrokeColor3 = Color3.fromRGB(252, 237, 212)
 
 UIGridLayout.Parent = MainBtn
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -84,7 +84,7 @@ Player.TextSize = 14.000
 Player.TextStrokeColor3 = Color3.fromRGB(252, 237, 212)
 
 Close.Name = "Close"
-Close.Parent = Home
+Close.Parent = Main
 Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Close.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Close.BorderSizePixel = 2
@@ -98,7 +98,7 @@ Close.TextSize = 14.000
 Close.TextWrapped = true
 
 Min.Name = "Min"
-Min.Parent = Home
+Min.Parent = Main
 Min.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Min.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Min.BorderSizePixel = 2
@@ -111,15 +111,16 @@ Min.TextScaled = true
 Min.TextSize = 14.000
 Min.TextWrapped = true
 
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderColor3 = Color3.fromRGB(100, 0, 0)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.330000013, 0, 0.264999956, 0)
-Frame.Size = UDim2.new(0, 357, 0, 268)
+Home_2.Name = "Home"
+Home_2.Parent = ScreenGui
+Home_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Home_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
+Home_2.BorderSizePixel = 0
+Home_2.Position = UDim2.new(0.330000013, 0, 0.264999956, 0)
+Home_2.Size = UDim2.new(0, 357, 0, 268)
 
 Welcome_2.Name = "Welcome"
-Welcome_2.Parent = Frame
+Welcome_2.Parent = Home_2
 Welcome_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Welcome_2.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Welcome_2.BorderSizePixel = 2
@@ -132,7 +133,7 @@ Welcome_2.TextSize = 14.000
 Welcome_2.TextWrapped = true
 
 Userpic.Name = "Userpic"
-Userpic.Parent = Frame
+Userpic.Parent = Home_2
 Userpic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Userpic.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Userpic.BorderSizePixel = 0
@@ -141,7 +142,7 @@ Userpic.Size = UDim2.new(0, 150, 0, 150)
 Userpic.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
 Username.Name = "Username"
-Username.Parent = Frame
+Username.Parent = Home_2
 Username.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Username.BorderColor3 = Color3.fromRGB(100, 0, 0)
 Username.BorderSizePixel = 2
@@ -156,8 +157,8 @@ Username.TextWrapped = true
 
 -- Scripts:
 
-local function SXGMXCS_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+local function KZGWN_fake_script() -- Home_2.LocalScript 
+	local script = Instance.new('LocalScript', Home_2)
 
 	local player = game.Players.LocalPlayer
 	local userId = player.UserId
@@ -165,10 +166,6 @@ local function SXGMXCS_fake_script() -- Frame.LocalScript
 	local thumSize = Enum.ThumbnailSize.Size420x420
 	local content = game.Players:GetNameFromUserIdAsync(userId, thumType, thumSize)
 	
-	Home.Username.Text = player.Name
-	Home.Userpic.Image = player.Name
-	
-	
 	
 end
-coroutine.wrap(SXGMXCS_fake_script)()
+coroutine.wrap(KZGWN_fake_script)()
