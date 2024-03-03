@@ -10,5 +10,3 @@ local class=Instance.new('StringValue',part);class.Name='TreeClass';class.Value=
 part.Name = name
 for k,l in pairs(part:GetChildren()) do if not l:IsA'BasePart' then continue end if l.Transparency == 0 then l.Transparency = 0.5 end end
 end
-
-
