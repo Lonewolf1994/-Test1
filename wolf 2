@@ -12,4 +12,3 @@ for k,l in pairs(part:GetChildren()) do if not l:IsA'BasePart' then continue end
 end
 
 
-
