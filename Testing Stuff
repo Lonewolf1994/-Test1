@@ -1,0 +1,169 @@
+local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
+
+local Wolf = library:CreateWindow({
+Name = "Find The Marker",
+Themeable = {
+Info = "Join our discord for more scripts!"
+}
+})
+
+local GeneralTab = Wolf:CreateTab({
+Name = "Player"
+})
+
+local plrProps = GeneralTab:CreateSection({
+Name = 'Player Properties'
+})
+
+local FarmTab = Wolf:CreateTab({
+Name = "goto Markers"
+})
+
+local Markers = FarmTab:CreateSection({
+ Name = "Marker Find"
+ })
+   
+plrProps:AddSlider({
+    Name = 'Walk Speed',
+    Flag = "WalkSpeed",
+    Value = 10,
+    Min = 16,
+    Max = 2000,
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+    end
+})
+
+plrProps:AddSlider({
+    Name = 'Jump Power',
+    Flag = "JumpPower",
+    Value = 10,
+    Min = 50,
+    Max = 1000,
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+    end
+})
+
+----------------------------------------------------------------------------------------------------------
+
+Markers:AddButton({
+    Name = "Purple Marker",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.762, 12.93, -28.134)
+    end
+    })
+
+ Markers:AddButton({
+        Name = "Baby Marker",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.627, 24.451, -130.979)
+         end
+        })
+
+        Markers:AddButton({
+            Name = "Ball Marker",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.931, 8.479, -11.816)
+            end
+            })
+
+            Markers:AddButton({
+                Name = "Bee Marker",
+                Callback = function()
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8.96, 20.471, 140.154)
+                end
+                })
+    
+                Markers:AddButton({
+                    Name = "Black Marker",
+                    Callback = function()
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-316.215, 10077.171, 3.033)
+                    end
+                    })
+        
+                    Markers:AddButton({
+                        Name = "Bone Marker",
+                        Callback = function()
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-282.876, 82.95, 204.246)
+                        end
+                        })
+    
+                        Markers:AddButton({
+                            Name = "Brown Marker",
+                            Callback = function()
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-252.629, 77.543, 173.984)
+                            end
+                            })
+ Markers:AddButton({
+     Name = "Cactus Marker",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-152.678, 15.106, -214.931)
+    end
+     })
+
+ Markers:AddButton({
+     Name = "Capless Marker",
+     Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(128.765, 12.953, 53.599)
+    end
+     })
+
+     Markers:AddButton({
+        Name = "Carpet Marker",
+        Callback = function()
+           game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.941, 15.5, 101.39)
+       end
+        })
+
+        Markers:AddButton({
+            Name = "Coral Marker",
+            Callback = function()
+               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(125.697, -6.396, -27.008)
+           end
+            })
+   
+            Markers:AddButton({
+                Name = "Crayon Marker",
+                Callback = function()
+                   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -341.138, 10186.09, -1052.913)
+               end
+                })
+
+                Markers:AddButton({
+                    Name = "Cyan Marker",
+                    Callback = function()
+                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -197.989, 15.581, -84.694)
+                   end
+                    })
+    
+    
+                    Markers:AddButton({
+                        Name = "Dropout Marker",
+                        Callback = function()
+                           game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.194, 18.903, -198.29)
+                       end
+                        })
+        
+                        Markers:AddButton({
+                            Name = "Explode Marker",
+                            Callback = function()
+                               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(161.357, 14.07, -202.757)
+                           end
+                            })
+            
+            
+        
+
+
+
+
+                        
+            
+
+
+
+
+                
+
+           
