@@ -94,7 +94,7 @@ Enter.TextWrapped = true
 Enter.MouseButton1Click:Connect(function()
 	if EnterKey.Text == "123" then
 		Key.Visible = false
-		loadstring(game:HttpGet("https://pastebin.com/raw/pm4FH7Si"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/-Test1/main/wolf"))()
 	else 
 		game.Players.LocalPlayer:Kick("Incorrect Password")
 		function antiCrack()
