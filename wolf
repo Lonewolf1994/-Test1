@@ -1,12 +1,487 @@
-tab = {{[CFrame.new(20.1001892, 23.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(20.1001892, 21.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(20.1001892, 27.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(20.1001892, 25.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(4.10018921, 13.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(4.10018921, 15.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(4.10018921, 17.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(4.10018921, 19.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(4.10018921, 21.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(4.10018921, 23.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(4.10018921, 25.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(4.10018921, 27.3002186, 4, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Koa',[2] = 'Floor1Small',},{[CFrame.new(20.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(19.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(18.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(17.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(13.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(16.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(15.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(14.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(9.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(12.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(11.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(10.499939, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(5.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(8.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(7.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(6.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(1.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(4.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(3.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(2.49993896, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-2.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(0.499938965, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-0.500061035, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-1.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-6.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-3.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-4.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-5.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-10.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-7.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-8.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-9.50006104, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-14.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-11.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-12.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-13.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-18.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-15.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-16.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-17.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-22.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-19.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-20.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-21.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-26.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-23.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-24.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-25.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-30.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-27.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-28.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-29.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-34.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-31.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-32.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-33.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-38.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-35.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-36.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-37.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-58.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-55.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-56.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-57.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-39.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-40.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-41.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-42.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-44.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-43.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-45.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-47.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-48.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-46.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-54.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-53.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-52.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-51.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-50.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-49.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-78.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-75.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-76.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-77.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-59.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-60.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-61.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-62.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-64.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-63.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-65.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-67.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-68.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-66.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-74.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-73.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-72.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-71.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-70.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-69.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-89.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-86.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-88.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-79.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-80.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-81.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-82.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-84.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-83.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-85.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-87.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 76, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 75, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 75, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 73, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 73, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 74, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 74, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 69, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 69, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 70, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 70, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 71, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 72, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 72, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 65, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 65, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 66, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 66, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 67, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 68, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 68, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 61, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 61, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 62, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 62, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 63, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 64, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 64, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 71, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 67, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 63, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 53, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 53, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 54, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 55, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 54, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 55, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 57, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 56, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 58, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 57, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 59, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 60, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 60, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 59, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 58, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 56, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 45, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 45, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 46, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 47, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 46, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 47, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 49, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 48, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 50, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 49, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 51, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 52, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 52, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 51, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 50, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 48, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 37, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 37, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 38, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 39, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 38, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 39, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 41, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 40, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 42, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 41, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 43, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 44, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 44, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 43, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 42, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 40, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 29, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 29, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 30, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 31, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 30, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 31, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 33, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 32, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 34, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 33, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 35, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 36, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 36, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 35, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 34, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 32, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 21, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 21, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 22, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 23, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 22, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 23, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 25, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 24, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 26, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 25, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 27, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 28, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 28, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 27, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 26, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 24, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 13, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 13, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 14, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 15, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 14, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 15, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 17, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 16, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 18, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 17, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 19, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 20, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 20, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 19, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 18, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 16, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 5, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 5, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 6, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 7, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 6, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 7, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 9, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 8, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 10, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 9, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 11, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 12, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 12, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 11, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 10, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 8, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -3, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -3, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -2, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -1, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -2, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -1, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 1, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 0, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 2, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 1, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 3, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, 4, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 4, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 3, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 2, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, 0, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -11, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -11, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -10, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -9, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -10, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -9, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -7, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -8, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -6, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -7, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -5, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -4, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -4, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -5, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -6, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -8, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -19, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -19, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -18, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -17, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -18, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -17, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -15, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -16, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -14, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -15, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -13, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -12, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -12, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -13, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -14, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -16, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -27, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -27, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -26, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -25, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -26, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -25, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -23, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -24, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -22, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -23, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -21, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -20, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -20, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -21, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -22, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -24, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -35, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -35, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -34, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -33, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -34, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -33, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -31, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -32, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -30, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -31, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -29, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -28, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -28, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -29, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -30, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -32, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -43, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -43, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -42, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -41, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -42, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -41, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -39, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -40, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -38, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -39, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -37, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -36, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -36, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -37, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -38, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -40, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -51, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -51, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -50, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -49, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -50, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -49, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -47, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -48, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -46, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -47, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -45, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -44, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -44, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -45, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -46, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -48, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -59, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -59, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -58, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -57, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -58, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -57, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -55, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -56, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -54, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -55, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -53, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -52, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -52, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -53, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -54, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -56, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -67, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -67, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -66, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -65, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -66, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -65, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -63, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -64, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -62, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -63, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -61, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -60, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -60, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -61, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -62, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -64, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -75, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -75, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -74, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -73, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -74, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -73, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -71, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -72, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -70, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -71, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -69, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -68, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -68, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -69, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -70, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -72, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-91.500061, 0.400475055, -75.5, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(-90.500061, 0.400475055, -75.5, 0, 0, 1, 0, 1, 0, -1, 0, 0)] = 'GreenSwampy',[2] = 'Floor2Tiny',},{[CFrame.new(21.7999268, 0.431237578, 3.98933411, 0, 0, 1, 0, 1, -0, -1, 0, 0)] = 'Volcano',[2] = 'Door3',},{[CFrame.new(20.0997925, 9.30026817, 72.8998413, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, 64.8998413, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, 68.8998413, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, 60.8998413, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, 52.8998413, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, 56.8998413, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, 48.8998413, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, 44.8998413, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(29.9998779, 2.30023813, -43.1002502, -1, 0, 0, 0, 0, -1, 0, -1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(25.9998779, 2.30023813, -43.1002502, -1, 0, 0, 0, 0, -1, 0, -1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(25.9998779, 6.30023813, -43.1002502, -1, 0, 0, 0, 0, -1, 0, -1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(33.9998779, 2.30023813, -43.1002502, -1, 0, 0, 0, 0, -1, 0, -1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, -45.1001587, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, -49.1001587, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, -53.1001587, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, -57.1001587, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, -61.1001587, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, -65.1001587, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, -69.1001587, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(20.0997925, 9.30026817, -73.1001587, 0, 1, 0, 0, 0, -1, -1, 0, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(25.9998779, 2.30023813, 43.8997498, -1, 0, 0, 0, 0, -1, 0, -1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(25.9998779, 6.30023813, 43.8997498, -1, 0, 0, 0, 0, -1, 0, -1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(33.9998779, 2.30023813, 43.8997498, -1, 0, 0, 0, 0, -1, 0, -1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(29.9998779, 2.30023813, 43.8997498, -1, 0, 0, 0, 0, -1, 0, -1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(19.0997925, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(15.0997925, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(11.0997925, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(7.09979248, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-0.90020752, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(3.09979248, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-4.90020752, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-8.90020752, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-16.9002075, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-12.9002075, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-20.9002075, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-24.9002075, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-32.9002075, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-28.9002075, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(-44.9002075, 9.30026817, 74.6998444, 1, 0, 0, 0, 0, -1, 0, 1, 0)] = 'Walnut',[2] = 'Floor1',},{[CFrame.new(21.7999268, 0.431237876, -3.99012756, 0, 0, -1, 0, 1, 0, 1, 0, 0)] = 'Volcano',[2] = 'Door3',},}
-for i,v in pairs(tab) do
-local CFrame,treeclass
-for i,v in pairs(v) do if i ~= 2 then CFrame = i; treeclass = v end end
-local name = v[2]
-local part = game.ReplicatedStorage.ClientItemInfo:FindFirstChild(name):FindFirstChildOfClass('Model'):Clone()
-part.Parent = workspace.Preview
-part:SetPrimaryPartCFrame(CFrame)
-local class=Instance.new('StringValue',part);class.Name='TreeClass';class.Value=treeclass
-part.Name = name
-for k,l in pairs(part:GetChildren()) do if not l:IsA'BasePart' then continue end if l.Transparency == 0 then l.Transparency = 0.5 end end
-end
+local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
+
+local Wolf = library:CreateWindow({
+Name = "Find The Marker",
+Themeable = {
+Info = "Join our discord for more scripts!"
+}
+})
+
+local GeneralTab = Wolf:CreateTab({
+Name = "Player"
+})
+
+local plrProps = GeneralTab:CreateSection({
+Name = 'Player Properties'
+})
+
+local FarmTab = Wolf:CreateTab({
+Name = "goto Markers"
+})
+
+local Markers = FarmTab:CreateSection({
+ Name = "Marker Find (Easy)"
+ })
+
+ local MarkersMed = FarmTab:CreateSection({
+    Name = "Marker Find (Medium)",
+    Side = "Right"
+    })
+
+   
+   
+plrProps:AddSlider({
+    Name = 'Walk Speed',
+    Flag = "WalkSpeed",
+    Value = 10,
+    Min = 16,
+    Max = 2000,
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+    end
+})
+
+plrProps:AddSlider({
+    Name = 'Jump Power',
+    Flag = "JumpPower",
+    Value = 10,
+    Min = 50,
+    Max = 1000,
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+    end
+})
+
+----------------------------------------------------------------------------------------------------------
+
+Markers:AddButton({
+    Name = "Purple Marker",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.762, 12.93, -28.134)
+    end
+    })
+
+ Markers:AddButton({
+        Name = "Baby Marker",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.627, 24.451, -130.979)
+         end
+        })
+
+        Markers:AddButton({
+            Name = "Ball Marker",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.931, 8.479, -11.816)
+            end
+            })
+
+            Markers:AddButton({
+                Name = "Bee Marker",
+                Callback = function()
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8.96, 20.471, 140.154)
+                end
+                })
+    
+                Markers:AddButton({
+                    Name = "Black Marker",
+                    Callback = function()
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-316.215, 10077.171, 3.033)
+                    end
+                    })
+        
+                    Markers:AddButton({
+                        Name = "Bone Marker",
+                        Callback = function()
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-282.876, 82.95, 204.246)
+                        end
+                        })
+    
+                        Markers:AddButton({
+                            Name = "Brown Marker",
+                            Callback = function()
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-252.629, 77.543, 173.984)
+                            end
+                            })
+ Markers:AddButton({
+     Name = "Cactus Marker",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-152.678, 15.106, -214.931)
+    end
+     })
+
+ Markers:AddButton({
+     Name = "Capless Marker",
+     Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(128.765, 12.953, 53.599)
+    end
+     })
+
+     Markers:AddButton({
+        Name = "Carpet Marker",
+        Callback = function()
+           game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19.941, 15.5, 101.39)
+       end
+        })
+
+        Markers:AddButton({
+            Name = "Coral Marker",
+            Callback = function()
+               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(125.697, -6.396, -27.008)
+           end
+            })
+   
+            Markers:AddButton({
+                Name = "Crystal Marker",
+                Callback = function()
+                   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -341.138, 10186.09, -1052.913)
+               end
+                })
+
+                Markers:AddButton({
+                    Name = "Crayon Marker",
+                    Callback = function()
+                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-88.041, 10128.501, 519.577)
+                   end
+                    })
+
+                Markers:AddButton({
+                    Name = "Cyan Marker",
+                    Callback = function()
+                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -197.989, 15.581, -84.694)
+                   end
+                    })
+    
+    
+                    Markers:AddButton({
+                        Name = "Dropout Marker",
+                        Callback = function()
+                           game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.194, 18.903, -198.29)
+                       end
+                        })
+        
+                        Markers:AddButton({
+                            Name = "Dummy Marker",
+                            Callback = function()
+                               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-300.868, 10192.582, -861.767)
+                           end
+                            })
+    
+                        Markers:AddButton({
+                            Name = "Explode Marker",
+                            Callback = function()
+                               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(161.357, 14.07, -202.757)
+                           end
+                            })
+            
+                            Markers:AddButton({
+                                Name = "Fire Marker",
+                                Callback = function()
+                                   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-263.528, 10062.421, 3.673)
+                               end
+                                })
+
+                                    Markers:AddButton({
+                                        Name = "FishBowl Marker",
+                                        Callback = function()
+                                           game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.009, 21.128, 94.99)
+                                       end
+                                        })
+                                        Markers:AddButton({
+                                            Name = "GingerBread Marker",
+                                            Callback = function()
+                                               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(351.502, 17.965, -250.985)
+                                           end
+                                            })
+                            
+                                            Markers:AddButton({
+                                                Name = "Goat Marker",
+                                                Callback = function()
+                                                   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-259.649, 129.475, 190.891)
+                                               end
+                                                })
+                                
+                                                Markers:AddButton({
+                                                    Name = "Grass Marker",
+                                                    Callback = function()
+                                                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-169.402, 25.06, 205.219)
+                                                   end
+                                                    })
+                                    
+                                                    
+                                                Markers:AddButton({
+                                                    Name = "Industrial Marker",
+                                                    Callback = function()
+                                                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(221.16, 16.891, 56.657)
+                                                   end
+                                                    })
+                                    
+                                                    
+                                                Markers:AddButton({
+                                                    Name = "Lava Jump Marker",
+                                                    Callback = function()
+                                                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(230.82, 16.224, 179.412)
+                                                   end
+                                                    })
+                                    
+                                                    
+                                                Markers:AddButton({
+                                                    Name = "Lavender Marker",
+                                                    Callback = function()
+                                                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-116.054, 10062.565, 4.98)
+                                                   end
+                                                    })
+                                    
+                                                    
+                                                Markers:AddButton({
+                                                    Name = "Leaf Marker",
+                                                    Callback = function()
+                                                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(64.8, 34.998, 47.627)
+                                                   end
+                                                    })
+                                    
+                                                    
+                                                Markers:AddButton({
+                                                    Name = "Lightbulb Marker",
+                                                    Callback = function()
+                                                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.436, 37.781, -53.64)
+                                                   end
+                                                    })
+
+                                    Markers:AddButton({
+                                                    Name = "Liquid Marker",
+                                                    Callback = function()
+                                                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-191.756, 19.629, -210.155)
+                                                   end
+                                                    })
+                                                    Markers:AddButton({
+                                                        Name = "Magenta Marker",
+                                                        Callback = function()
+                                                           game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(78.513, 52.714, -172.138)
+                                                       end
+                                                        })
+
+                                                        Markers:AddButton({
+                                                            Name = "Black baseplate Marker",
+                                                            Callback = function()
+                                                               game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(209.122, 14.62, -25.974)
+                                                           end
+                                                            })
+
+                                                            Markers:AddButton({
+                                                                Name = "Markerplier",
+                                                                Callback = function()
+                                                                   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-35.314, 21.222, -207.06)
+                                                               end
+                                                                })    
+
+                                                                Markers:AddButton({
+                                                                    Name = "Markerseed the fallen",
+                                                                    Callback = function()
+                                                                       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-376.346, 10183.137, -1136.913)
+                                                                   end
+                                                                    })                                           
+
+
+Markers:AddButton({
+    Name = "Maroon Marker",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-322.354, 10210.371, -1059.752)
+    end
+    })            
+
+    Markers:AddButton({
+        Name = "Marshmallow Marker",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(198.879, 38.635, -292.218)
+        end
+        })       
+        
+        Markers:AddButton({
+            Name = "Navy Marker",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.345, -6.42, -94.441)
+            end
+            })                                           
+
+            Markers:AddButton({
+                Name = "Old Marker",
+                Callback = function()
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(105.227, 33.987, -3.44)
+                end
+                })                                           
+
+
+            Markers:AddButton({
+                Name = "Olive Marker",
+                Callback = function()
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(36.893, 25.879, -137.808)
+                end
+                })                                           
+
+                Markers:AddButton({
+                    Name = "Permanent Marker",
+                    Callback = function()
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(197.575, 17.57, 170.862)
+                    end
+                    })   
+                    
+                    Markers:AddButton({
+                        Name = "Pinata Marker",
+                        Callback = function()
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(113.028, 57.185, -178.506)
+                        end
+                        }) 
+
+                        Markers:AddButton({
+                            Name = "Red Marker",
+                            Callback = function()
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21.835, 15.27, -145.184)
+                            end
+                            }) 
+
+                            Markers:AddButton({
+                                Name = "Rock Marker",
+                                Callback = function()
+                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-98.134, 13.895, 106.527)
+                                end
+                                }) 
+
+                                Markers:AddButton({
+                                    Name = "Security Marker",
+                                    Callback = function()
+                                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(182.237, 19.611, 69.441)
+                                    end
+                                    }) 
+
+                                    Markers:AddButton({
+                                        Name = "Snow Marker",
+                                        Callback = function()
+                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(148.007, 14.933, -115.649)
+                                        end
+                                        }) 
+
+                                        Markers:AddButton({
+                                            Name = "Snowman Marker",
+                                            Callback = function()
+                                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(75.898, 17.947, -119.152)
+                                            end
+                                            }) 
+
+                                            Markers:AddButton({
+                                                Name = "Sweetdream Marker",
+                                                Callback = function()
+                                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(38.996, 28.408, -167.457)
+                                                end
+                                                }) 
+                                                Markers:AddButton({
+                                                    Name = "Tan Marker",
+                                                    Callback = function()
+                                                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-124.768, 22.423, -198.714)
+                                                    end
+                                                    }) 
+                                                
+                                                    Markers:AddButton({
+                                                        Name = "Temple Marker",
+                                                        Callback = function()
+                                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.25, 31.913, -159.3)
+                                                        end
+                                                        }) 
+
+                                                        Markers:AddButton({
+                                                            Name = "Thief Marker",
+                                                            Callback = function()
+                                                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.846, 18.492, 0.364)
+                                                            end
+                                                            }) 
+
+                                                            Markers:AddButton({
+                                                                Name = "Tied Marker",
+                                                                Callback = function()
+                                                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(105.658, 41.026, -0.046)
+                                                                end
+                                                                }) 
+   
+                                                                    Markers:AddButton({
+                                                                        Name = "Triple Marker",
+                                                                        Callback = function()
+                                                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-145.17, 67.16, -34.095)
+                                                                        end
+                                                                        })
+
+                                                                        Markers:AddButton({
+                                                                            Name = "Water Marker",
+                                                                            Callback = function()
+                                                                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(103.845, 13.192, -35.945)
+                                                                            end
+                                                                        })
+
+                                                                                Markers:AddButton({
+                                                                                    Name = "Yellow Marker",
+                                                                                    Callback = function()
+                                                                                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(119.319, 21.579, -57.141)
+                                                                                    end
+                                                                                    })
+                            
+
+
+                                                                                    Markers:AddButton({
+                                                                                        Name = "Zombie Marker",
+                                                                                        Callback = function()
+                                                                                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(101.932, 5.781, 86.235)
+                                                                                        end
+                                                                                        })
+                                                                                         
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MarkersMed:AddButton({
+    Name = "Battery Marker",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.656, 16.698, -160.429)
+    end
+    })
+
+    MarkersMed:AddButton({
+        Name = "Bendy straw Marker",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( 11.85, -9.273, 240.68)
+        end
+        })
+
+        MarkersMed:AddButton({
+            Name = "Big Orange Marker",
+            Callback = function()
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -214.882, 10062.679, 3.401)
+            end
+            })
+    
+            MarkersMed:AddButton({
+                Name = "Blue Marker",
+                Callback = function()
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-125.231, 39.376, 193.606)
+                end
+                })
+
+                MarkersMed:AddButton({
+                    Name = "Box Marker",
+                    Callback = function()
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(242.466, 15.955, 42.461)
+                    end
+                    })
+    
+                    MarkersMed:AddButton({
+                        Name = "Brick Marker",
+                        Callback = function()
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27.448, 37.156, 119.81)
+                        end
+                        })
+        
+   
+                        MarkersMed:AddButton({
+                            Name = "Capless Marker",
+                            Callback = function()
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-288.53, 29.269, 154.242)
+                            end
+                            })
+            
+               
+
+   
