@@ -1,3 +1,4 @@
+local TweenService = game:GetService("TweenService")
 
 local ScreenGui = Instance.new("ScreenGui")
 local Key = Instance.new("Frame")
@@ -9,162 +10,189 @@ local GetKey = Instance.new("TextButton")
 local Note = Instance.new("TextLabel")
 local GetkeyFrm = Instance.new("Frame")
 local getkeytext = Instance.new("TextLabel")
-local Gui = Instance.new("Frame")
 
---Properties:
+-- Properties:
 
 ScreenGui.Parent = game.CoreGui
 
 Key.Name = "Key"
 Key.Parent = ScreenGui
-Key.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Key.BorderColor3 = Color3.fromRGB(100, 0, 0)
-Key.BorderSizePixel = 2
-Key.Position = UDim2.new(0.215980023, 0, 0.206122443, 0)
-Key.Size = UDim2.new(0.568039954, 0, 0.585714281, 0)
+Key.BackgroundColor3 = Color3.fromRGB(30, 30, 30)  -- Dark background
+Key.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Key.BorderSizePixel = 0
+Key.Position = UDim2.new(0.215, 0, 0.206, 0)
+Key.Size = UDim2.new(0.568, 0, 0.585, 0)
 Key.Active = true
 Key.Draggable = true
 
+-- Rounded Corners for Key Frame
+local UICornerKey = Instance.new("UICorner")
+UICornerKey.CornerRadius = UDim.new(0, 12)
+UICornerKey.Parent = Key
+
 Thankyou.Name = "Thankyou"
 Thankyou.Parent = Key
-Thankyou.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Thankyou.BorderColor3 = Color3.fromRGB(100, 0, 0)
-Thankyou.BorderSizePixel = 2
-Thankyou.Position = UDim2.new(0, 0, -0.00293681188, 0)
-Thankyou.Size = UDim2.new(1, 0, 0.174216032, 0)
-Thankyou.Font = Enum.Font.SourceSans
-Thankyou.Text = "Thank You For choosing Byte"
-Thankyou.TextColor3 = Color3.fromRGB(200, 0, 0)
+Thankyou.BackgroundColor3 = Color3.fromRGB(40, 40, 40) -- Darker label background
+Thankyou.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Thankyou.BorderSizePixel = 0
+Thankyou.Position = UDim2.new(0, 0, 0, 10)
+Thankyou.Size = UDim2.new(1, 0, 0.1, 0)
+Thankyou.Font = Enum.Font.GothamBold
+Thankyou.TextColor3 = Color3.fromRGB(0, 66, 255) -- Cyan color
 Thankyou.TextScaled = true
-Thankyou.TextSize = 14.000
 Thankyou.TextWrapped = true
+Thankyou.Text = "Thank you for useing..."
+
+-- Rounded Corners for Thank You Label
+local UICornerThankyou = Instance.new("UICorner")
+UICornerThankyou.CornerRadius = UDim.new(0, 12)
+UICornerThankyou.Parent = Thankyou
 
 EnterKey.Name = "EnterKey"
 EnterKey.Parent = Key
-EnterKey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+EnterKey.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 EnterKey.BorderColor3 = Color3.fromRGB(100, 0, 0)
-EnterKey.BorderSizePixel = 2
-EnterKey.Position = UDim2.new(0.279120892, 0, 0.369337976, 0)
-EnterKey.Size = UDim2.new(0.439560443, 0, 0.174216032, 0)
-EnterKey.Font = Enum.Font.SourceSans
-EnterKey.PlaceholderColor3 = Color3.fromRGB(0, 0, 200)
+EnterKey.Position = UDim2.new(0.279, 0, 0.369, 0)
+EnterKey.Size = UDim2.new(0.439, 0, 0.1, 0)
+EnterKey.Font = Enum.Font.Gotham
+EnterKey.PlaceholderColor3 = Color3.fromRGB(0, 66, 255)
 EnterKey.PlaceholderText = "Please enter Key"
 EnterKey.Text = ""
-EnterKey.TextColor3 = Color3.fromRGB(200, 0, 0)
+EnterKey.TextColor3 = Color3.fromRGB(0, 66, 255)
 EnterKey.TextScaled = true
-EnterKey.TextSize = 14.000
 EnterKey.TextWrapped = true
 
-Discord.Name = "Discord"
-Discord.Parent = Key
-Discord.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Discord.BorderColor3 = Color3.fromRGB(100, 0, 0)
-Discord.BorderSizePixel = 2
-Discord.Position = UDim2.new(0.0593406595, 0, 0.658536613, 0)
-Discord.Size = UDim2.new(0.210989013, 0, 0.149825782, 0)
-Discord.Font = Enum.Font.SourceSans
-Discord.Text = "Discord"
-Discord.TextColor3 = Color3.fromRGB(200, 0, 0)
-Discord.TextScaled = true
-Discord.TextSize = 14.000
-Discord.TextWrapped = true
-Discord.MouseButton1Click:Connect(function()
-	setclipboard("https://discord.gg/zegxAfjDXV")
-	toclipboard("https://discord.gg/zegxAfjDXV")
-	wait(0.1)
-	Discord.Text = "Copied Invite!"
-	wait(5)
-	Discord.Text = "Discord"
+-- Rounded Corners for Enter Key TextBox
+local UICornerEnterKey = Instance.new("UICorner")
+UICornerEnterKey.CornerRadius = UDim.new(0, 12)
+UICornerEnterKey.Parent = EnterKey
+
+local function createButton(name, parent, position, buttonText, callback)
+    local button = Instance.new("TextButton")
+    button.Name = name
+    button.Parent = parent
+    button.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+    button.BorderColor3 = Color3.fromRGB(200, 200, 200)
+    button.Position = position
+    button.Size = UDim2.new(0.2, 0, 0.1, 0)
+    button.Font = Enum.Font.Gotham
+    button.TextColor3 = Color3.fromRGB(100, 0, 0)
+    button.TextScaled = true
+    button.TextWrapped = true
+    button.Text = buttonText  -- Set the button text
+
+    -- Rounded Corners for buttons
+    local buttonCorner = Instance.new("UICorner", button)
+    buttonCorner.CornerRadius = UDim.new(0, 8)
+
+    button.MouseButton1Click:Connect(callback)
+
+    return button
+end
+
+Discord = createButton("Discord", Key, UDim2.new(0.059, 0, 0.658, 0), "Discord", function()
+    setclipboard("https://discord.gg/zegxAfjDXV")
+    wait(0.1)
+    Discord.Text = "Copied Invite!"
+    wait(5)
+    Discord.Text = "Discord"
 end)
 
-
-Enter.Name = "Enter"
-Enter.Parent = Key
-Enter.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Enter.BorderColor3 = Color3.fromRGB(100, 0, 0)
-Enter.BorderSizePixel = 2
-Enter.Position = UDim2.new(0.3934066, 0, 0.658536613, 0)
-Enter.Size = UDim2.new(0.210989013, 0, 0.149825782, 0)
-Enter.Font = Enum.Font.SourceSans
-Enter.Text = "Check Key"
-Enter.TextColor3 = Color3.fromRGB(200, 0, 0)
-Enter.TextScaled = true
-Enter.TextSize = 14.000
-Enter.TextWrapped = true
-Enter.MouseButton1Click:Connect(function()
-	if EnterKey.Text == "123" then
-		Key.Visible = false
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/-Test1/main/wolf"))()
-	else 
-		game.Players.LocalPlayer:Kick("Incorrect Password")
-		function antiCrack()
-			return true
-		end
-	end
+Enter = createButton("Enter", Key, UDim2.new(0.393, 0, 0.658, 0), "Check Key", function()
+    if EnterKey.Text == "123" then
+        -- Fade out all buttons and the frame
+        for _, child in ipairs(Key:GetChildren()) do
+            if child:IsA("GuiObject") then
+                local fadeOutTween = TweenService:Create(child, TweenInfo.new(1), {BackgroundTransparency = 1})
+                fadeOutTween:Play()
+                fadeOutTween.Completed:Wait() -- Wait for each fade out to finish
+            end
+        end
+        
+        Key.Visible = false
+        -- Load your script here
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/-Test1/main/wolf"))()
+    else 
+        game.Players.LocalPlayer:Kick("Incorrect Password")
+    end
 end)
 
-GetKey.Name = "Get Key"
-GetKey.Parent = Key
-GetKey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-GetKey.BorderColor3 = Color3.fromRGB(100, 0, 0)
-GetKey.BorderSizePixel = 2
-GetKey.Position = UDim2.new(0.729670346, 0, 0.658536613, 0)
-GetKey.Size = UDim2.new(0.210989013, 0, 0.149825782, 0)
-GetKey.Font = Enum.Font.SourceSans
-GetKey.Text = "Get Key"
-GetKey.TextColor3 = Color3.fromRGB(200, 0, 0)
-GetKey.TextScaled = true
-GetKey.TextSize = 14.000
-GetKey.TextWrapped = true
-GetKey.MouseButton1Click:Connect(function()
-	Key.Visible = false
-	GetkeyFrm.Visible = true
-	wait(2)
-	Key.Visible = false
-	GetkeyFrm.Visible = true
-end)	
+GetKey = createButton("GetKey", Key, UDim2.new(0.729, 0, 0.658, 0), "Get Key", function()
+    -- Check for any visible key frames and destroy them
+    for _, child in ipairs(ScreenGui:GetChildren()) do
+        if child:IsA("Frame") and child.Name == "Key" or child.Name == "GetkeyFrm" then
+            if child.Visible then
+                child:Destroy()  -- Destroy any visible frames
+            end
+        end
+    end
+
+    Key.Visible = false
+    GetkeyFrm.Visible = true
+end)
 
 Note.Name = "Note"
 Note.Parent = Key
-Note.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Note.BorderColor3 = Color3.fromRGB(100, 0, 0)
-Note.BorderSizePixel = 2
-Note.Position = UDim2.new(-3.35358017e-08, 0, 0.87108016, 0)
-Note.Size = UDim2.new(1, 0, 0.128919855, 0)
-Note.Font = Enum.Font.SourceSans
+Note.BackgroundColor3 = Color3.fromRGB(30, 30, 30) -- Darker background
+Note.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Note.Position = UDim2.new(0, 0, 0.871, 0)
+Note.Size = UDim2.new(1, 0, 0.1, 0)
+Note.Font = Enum.Font.Gotham
 Note.Text = "Note: Keys Reset At 8PM Eastern time."
 Note.TextColor3 = Color3.fromRGB(200, 0, 0)
 Note.TextScaled = true
-Note.TextSize = 14.000
 Note.TextWrapped = true
+
+-- Rounded Corners for Note Label
+local UICornerNote = Instance.new("UICorner")
+UICornerNote.CornerRadius = UDim.new(0, 12)
+UICornerNote.Parent = Note
 
 GetkeyFrm.Name = "GetkeyFrm"
 GetkeyFrm.Parent = ScreenGui
-GetkeyFrm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-GetkeyFrm.BorderColor3 = Color3.fromRGB(100, 0, 0)
-GetkeyFrm.BorderSizePixel = 2
-GetkeyFrm.Position = UDim2.new(0.307116091, 0, 0.340816319, 0)
-GetkeyFrm.Size = UDim2.new(0.385767788, 0, 0.316326529, 0)
+GetkeyFrm.BackgroundColor3 = Color3.fromRGB(30, 30, 30) -- Darker background
+GetkeyFrm.BorderColor3 = Color3.fromRGB(50, 50, 50)
+GetkeyFrm.Position = UDim2.new(0.307, 0, 0.340, 0)
+GetkeyFrm.Size = UDim2.new(0.385, 0, 0.316, 0)
 GetkeyFrm.Visible = false
+
+-- Rounded Corners for Get Key Frame
+local UICornerGetkeyFrm = Instance.new("UICorner")
+UICornerGetkeyFrm.CornerRadius = UDim.new(0, 12)
+UICornerGetkeyFrm.Parent = GetkeyFrm
 
 getkeytext.Name = "getkeytext"
 getkeytext.Parent = GetkeyFrm
-getkeytext.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-getkeytext.BorderColor3 = Color3.fromRGB(200, 0, 0)
-getkeytext.BorderSizePixel = 2
+getkeytext.BackgroundColor3 = Color3.fromRGB(30, 30, 30) -- Darker background
+getkeytext.BorderColor3 = Color3.fromRGB(50, 50, 50)
 getkeytext.Size = UDim2.new(1, 0, 1, 0)
-getkeytext.Font = Enum.Font.SourceSans
+getkeytext.Font = Enum.Font.Gotham
 getkeytext.Text = "Join our Discord To get the key!"
-getkeytext.TextColor3 = Color3.fromRGB(200, 0, 0)
+getkeytext.TextColor3 = Color3.fromRGB(255, 255, 255)
 getkeytext.TextScaled = true
-getkeytext.TextSize = 14.000
 getkeytext.TextWrapped = true
 
-Gui.Name = "Gui"
-Gui.Parent = ScreenGui
-Gui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Gui.BorderSizePixel = 0
-Gui.Position = UDim2.new(0.364544332, 0, 0.326530606, 0)
-Gui.Size = UDim2.new(0.269662917, 0, 0.344897956, 0)
-Gui.Visible = false
+-- Rounded Corners for Get Key Text
+local UICornerGetkeyText = Instance.new("UICorner")
+UICornerGetkeyText.CornerRadius = UDim.new(0, 12)
+UICornerGetkeyText.Parent = getkeytext
+
+-- Function to fade in a frame and its children
+local function fadeIn(frame)
+    frame.BackgroundTransparency = 1
+    frame.Visible = true
+    local fadeInTween = TweenService:Create(frame, TweenInfo.new(1), {BackgroundTransparency = 0})
+    fadeInTween:Play()
+
+    -- Fade in all children
+    for _, child in ipairs(frame:GetChildren()) do
+        if child:IsA("GuiObject") then
+            child.BackgroundTransparency = 1 -- Start as transparent
+            local childFadeInTween = TweenService:Create(child, TweenInfo.new(1), {BackgroundTransparency = 0})
+            childFadeInTween:Play()
+        end
+    end
+end
+
+-- Show the Key frame with fade-in effect
+fadeIn(Key)
